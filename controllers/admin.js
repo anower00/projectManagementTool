@@ -16,7 +16,7 @@ router.get('/', function(req, res){
 	
 	res.render('admin/index', {name: req.session.user.name});
 });
-
+//git function
 router.get('/changepassword', function(req, res){
 	if(!req.session.user)
 	{
